@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Documen */
+body {
+	background:url(Imagenes/fondo.jpg) no-repeat center;
+	background-size:cover;
+	}
+#contenedor {
+	width: 100%;
+	}
+#encabezado {
+	margin-top:50px;
+	margin-left:100px;
+	width: 500px;
+	height: 225px;
+	}
+#menu {
+	margin-left:620px;
+	width: 600px;
+	height: 50px;
+	z-index:9;
+	position: absolute;	
+	}
+#boton ul{
+	list-style: none;
+	padding: 0;
+	}
+#boton li{
+	display: inline;
+	text-align: center;
+	}
+#boton li a {
+	padding: 10px 10px;
+	color: black;
+	background-color:#169A01;
+	border: 1px solid Lime;
+	text-decoration: none; 
+	font-family:cursive;
+	font-weight:bold;
+	box-shadow: inset 0px 0px 6px #fff;
+	border-radius: 113px;
+	display:block;
+	z-index:8;
+	}
+#boton li a:hover{
+	color:#9478FA;
+	}
+#boton li ul{
+	display:none;
+	position:absolute;
+	}
+#boton > li {
+	float:left;
+	}
+#boton li:hover > ul {
+	display:block;
+	}
+#contenido {
+	margin-left:50px;
+	margin-top:100px;
+	float: left;
+	width: 1250px;
+	height: 280px;
+	}
+#contenidot {
+	margin-left:50px;
+	float: left;
+	width: 1250px;
+	height: 450px;
+	}
+.contenido {
+	text-align:justify; 
+	font-family:cursive;
+	color:#9478FA;
+	font-size:20px;
+	text-indent: 1.5em;
+	}
+.tabla {
+	text-align:justify; 
+	margin-left:50px;
+	margin-right:70px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #9478FA;
+	font-family: cursive;
+	text-align: center;
+	}			
+img.itabla{
+	width:200px;
+	height:250px;
+	}
+#formulario{
+	width:265px;
+	height:370px;
+	margin-left:450px;
+	padding:5px 5px; 
+	margin-top:60px;
+	position: absolute;
+	}
+.campos {
+	font-family:cursive;
+	color:#9478FA;
+	font-size:13px;
+	border:2px solid #9478FA;
+	size:30;
+	border-radius: 10px;
+	}
+.formu{
+	font-family:cursive;
+	color:#9478FA;
+	font-size:17px;
+	font-weight: bold;
+    }
+
+.botonsubmit{
+	margin-left:50px;
+	padding: 10px 50px;
+	color: black;
+	background-color:#169A01;
+	border: 1px solid Lime;
+	text-decoration: none; 
+	font-family:cursive;
+	font-weight:bold;
+	box-shadow: inset 0px 0px 6px #fff;
+	border-radius: 113px;
+	display:block;
+	}
+#videos{
+	display: inline;
+	width:1000px;
+	height:300px;
+	float:left;
+	margin-left:150px;
+	margin-top:10px;
+	}	
+#video1
+    { 	
+     position:relative;
+	 float:left;
+     width:450px;       
+     display:block;
+	 border:solid #9478FA;
+	 height:200px;
+	 border-radius: 113px;
+	 z-index:7;
+     }
+#video2
+    {
+     margin-left:480px; 	
+     position:absolute;
+	 float:left;
+     width:450px;
+	 height:200px;       
+     display:block;
+	 border:solid #9478FA;
+	 border-radius: 113px;
+     }
+#pie {
+	margin-top:200px;
+	margin-left:50px;
+	clear: both;
+	width: 1250px;
+	height:175px;
+	}
+#pief {
+	margin-top:500px;
+	margin-left:50px;
+	clear: both;
+	width: 1250px;
+	height:140px;
+	}
+.pie {
+	text-align:justify; 
+	font-family:cursive;
+	color:blue;
+	font-size:17px;
+	text-indent: 1.5em;
+	}

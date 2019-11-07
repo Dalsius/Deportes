@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Royal Haze</title>
+<link rel="stylesheet" type="text/css" href="Estilos.css">
+<script type="text/javascript">
+function java()
+{
+document.getElementById("pie").innerHTML ="<h1>Gracias x su voto</h1>";
+}
+function confirmacion() 
+{
+	var pregunta = confirm("¿Deseas volver al Inicio")	
+	if (pregunta)
+	{
+		window.location ="DeportesExtremos.html";
+	}
+	else
+	{
+	}
+}
+</script>
+
+</head>
+<body>
+<div id="contenedor">
+<header id="encabezado"><button type="button" onclick="confirmacion()"><img src="Imagenes/logo.png" /></button>
+</header>
+<div id="menu">
+<ul id="boton">
+<li><a href="DeportesExtremos.html">Inicio</a>
+<li><a href="#">En Aire</a>
+<ul>
+<li><a href="Parapente.html">Parapente</a></li>
+<li><a href="Paracaidismo.html">Paracaidismo</a></li>
+<li><a href="Wing Suit.html">Wing Suit</a></li>
+</ul>
+</li>
+<li><a href="#">En Tierra</a>
+<ul>
+<li><a href="Escalada.html">Escalada</a></li>
+<li><a href="Supercross.html">Supercross</a></li>
+<li><a href="Parkour.html">Parkour</a></li>
+</ul>
+</li>
+<li><a href="#">En Agua</a>
+<ul>
+<li><a href="Kitesurf.html">Kitesurf</a></li>
+<li><a href="Flyboard.html">Flyboard</a></li>
+<li><a href="Piragüismo.html">Piragüismo</a></li>
+</ul>
+</li>
+<li><a href="Galeria.html">Galeria</a></li>
+<li><a href="Contactenos.html">Contactenos</a></li>
+</ul></div>
+<div id="contenido">
+<p class="contenido">
+Los Deportes Extremos son aquellos que tienen un grado de riesgo para quienes los practican. La idea de estos es ir siempre al borde sin perder el control, estos son de gran exigencia física y, sobre todo, mental, pero la sensación de placer de quienes los practican es espectacular. Todo esto por un tema biológico de nuestros cuerpos: “La adrenalina”.</p>
+<p class="contenido">
+La exposición al peligro en los Deportes Extremos es captada por el organismo como amenazante para la sobrevivencia, la sensación de estar al borde del peligro, la tensión, y hasta el miedo que las acompaña con todas sus manifestaciones físicas, como el aumento el ritmo cardíaco y la tensión muscular, en verdad estimulan el sistema nervioso, lo que para algunos es interpretado como súper excitante. Los deportistas extremos buscan el peligro, lo que se convierte en un reto donde el objetivo es quedarse y aguantar hasta el final, lo que le agrega a la experiencia la sensación de potencia, poder, valor.</p>
+</div>
+<br>
+<div id="pie">
+<p class="pie">
+Encuesta:<br />
+¿Cuanta agua bebe al dia?<br />
+<form method="post" name="encuesta">
+<input type="radio" name="encuesta" value="menos1" > Menos de 1 Litro <br />
+<input type="radio" name="encuesta" value="1y2" > Entre 1 y 2 Litros <br />
+<input type="radio" name="encuesta" value="2y3" > Entre 2 y 3 Litros <br />
+<input type="radio" name="encuesta" value="mas3" > Mas de 3 Litros <br /><br />
+<input type="submit" value="Votar" onclick="java()">
+</form>
+</p>
+</div>
+</div>
+</body>
+</html>
